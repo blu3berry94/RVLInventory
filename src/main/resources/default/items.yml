@@ -1,0 +1,169 @@
+# RVLInventory - Dev STABLE Version
+################################################################
+# NOTICE: DO NOT USE VANILLA SLOTS UNLESS YOU WANT YOUR SERVER #
+# TURNED INTO ITEM DUPING PALACE                               #
+################################################################
+
+# Vanilla slots
+# Removed by Blub
+
+# Ring slots
+RIGHT_RING:
+    type: accessory
+    material: DIAMOND_HOE
+    durability: 7
+    name: '&7[Chưa Trang Bị] &6Nhẫn (Tay Phải)'
+    slot: 24
+    restrictions:
+        - 'mmoitemstype{type=RING}'
+    lore:
+        - '&f'
+        - '&fKéo thả &c&nTrang Sức Nhẫn&f vào'
+        - '&fslot này để gia tăng chỉ số '
+        - '&fnhân vật của bạn trong&b /chiso'
+        - '&f'
+LEFT_RING:
+    type: accessory
+    material: DIAMOND_HOE
+    durability: 8
+    name: '&7[Chưa Trang Bị] &6Nhẫn (Tay Trái)'
+    slot: 34
+    restrictions:
+        - 'mmoitemstype{type=RING}'
+    lore:
+        - '&f'
+        - '&fKéo thả &c&nTrang Sức Nhẫn&f vào'
+        - '&fslot này để gia tăng chỉ số '
+        - '&fnhân vật của bạn trong&b /chiso'
+        - '&f'
+
+# Extra accessories
+AMULET:
+    type: accessory
+    material: DIAMOND_HOE
+    durability: 5
+    name: '&7[Chưa Trang Bị] &6Dây Chuyền'
+    slot: 22
+    restrictions:
+        - 'mmoitemstype{type=NECKLACE}'
+    lore:
+        - '&f'
+        - '&fKéo thả &c&nTrang Sức Dây Chuyền&f'
+        - '&fvào slot này để gia tăng chỉ số '
+        - '&fnhân vật của bạn trong&b /chiso'
+        - '&f'
+BRACELET:
+    type: accessory
+    material: DIAMOND_HOE
+    durability: 6
+    name: '&7[Chưa Trang Bị] &6Vòng Tay'
+    slot: 15
+    restrictions:
+        - 'mmoitemstype{type=BRACELET}'
+    lore:
+        - '&f'
+        - '&fKéo thả &c&nTrang Sức Vòng Tay&f'
+        - '&fvào slot này để gia tăng chỉ số '
+        - '&fnhân vật của bạn trong&b /chiso'
+        - '&f'
+
+# Artifact slots
+ARTIFACT_1:
+    type: accessory
+    material: DIAMOND_HOE
+    durability: 10
+    name: '&7[Chưa Trang Bị] &6Thần Võ'
+    slot: 11
+    restrictions:
+        - 'mmoitemstype{type=ARTIFACT}'
+        - 'unique{enabled=true}'
+    lore:
+        - '&f'
+        - '&fKéo thả &c&nThần Võ&f vào'
+        - '&fslot này để gia tăng chỉ số '
+        - '&fnhân vật của bạn trong&b /chiso'
+        - '&f'
+        - '&8[&c&l!&8] &7TRONG 3 SLOT TRANG BỊ THẦN VÕ'
+        - '&7SẼ KHÔNG THỂ TRANG BỊ THẦN VÕ'
+        - '&7TRÙNG CHỈ SỐ HOẶC CÙNG LOẠI'
+ARTIFACT_2:
+    type: accessory
+    material: DIAMOND_HOE
+    durability: 11
+    name: '&7[Chưa Trang Bị] &6Thần Võ'
+    slot: 20
+    restrictions:
+        - 'mmoitemstype{type=ARTIFACT}'
+        - 'unique{enabled=true}'
+    lore:
+        - '&f'
+        - '&fKéo thả &c&nThần Võ&f vào'
+        - '&fslot này để gia tăng chỉ số '
+        - '&fnhân vật của bạn trong&b /chiso'
+        - '&f'
+        - '&8[&c&l!&8] &7TRONG 3 SLOT TRANG BỊ THẦN VÕ'
+        - '&7SẼ KHÔNG THỂ TRANG BỊ THẦN VÕ'
+        - '&7TRÙNG CHỈ SỐ HOẶC CÙNG LOẠI'
+ARTIFACT_3:
+    type: accessory
+    material: DIAMOND_HOE
+    durability: 12
+    name: '&7[Chưa Trang Bị] &6Thần Võ'
+    slot: 28
+    restrictions:
+        - 'mmoitemstype{type=ARTIFACT}'
+        - 'unique{enabled=true}'
+    lore:
+        - '&f'
+        - '&fKéo thả &c&nThần Võ&f vào'
+        - '&fslot này để gia tăng chỉ số '
+        - '&fnhân vật của bạn trong&b /chiso'
+        - '&f'
+        - '&8[&c&l!&8] &7TRONG 3 SLOT TRANG BỊ THẦN VÕ'
+        - '&7SẼ KHÔNG THỂ TRANG BỊ THẦN VÕ'
+        - '&7TRÙNG CHỈ SỐ HOẶC CÙNG LOẠI'
+ARTIFACT_4:
+    type: accessory
+    material: APPLE
+    name: '&9&lCHỈ SỐ'
+    slot: 4
+    restrictions:
+        - 'mmoitemstype{type=CHISOITEM}'
+        - 'unique{enabled=true}'
+    lore:
+        - '&6'
+        - '&3 &f| &7Sát Thương Cơ Bản&8: &a%mmoitems_stat_attack_damage%'
+        - '&3 &f| &7Tỉ Lệ Bạo Kích&8: &a+%mmoitems_stat_critical_strike_chance%%'
+        - '&3 &f| &7Sát Thương Bạo Kích&8: &a+%mmoitems_stat_critical_strike_power%%'
+        - '&3 &f| &7Tốc Đánh&8: &a%mmoitems_stat_attack_speed%'
+        - '&3 &c| &7Sát thương &8[&cPVE&8]&8: &a+%mmoitems_stat_pve_damage%%'
+        - '&3 &4| &7Sát thương &8[&4PVP&8]&8: &a+%mmoitems_stat_pvp_damage%%'
+        - '&3 &f| &7Đánh Lan: &a%mmoitems_stat_blunt_power%'
+        - '&3 &f| &7Sát Thương Đánh Lan: &a+%mmoitems_stat_blunt_rating%%'
+        - '&3 &b| &7Sát Thương Tăng Cường: &a+%mmoitems_stat_weapon_damage%%'
+        - '&6'
+        - '&3 &f| &7HP&8: &a+%mmoitems_stat_max_health%'
+        - '&3 &f| &7Phòng Thủ&8: &a+%mmoitems_stat_defense%'
+        - '&3 &a| &7Giáp&8: &a+%mmoitems_stat_armor%'
+        - '&3 &4| &7Giảm ST PVE&8: &a+%mmoitems_stat_pve_damage_reduction%%'
+        - '&3 &c| &7Giảm ST PVP&8: &a+%mmoitems_stat_pvp_damage_reduction%%'
+        - '&3 &f| &7Giảm Sát Thương: &a+%mmoitems_stat_damage_reduction%%'
+        - '&3 &f| &7Chặn Đòn&8: &a+%mmoitems_stat_block_power%%'
+        - '&3 &f| &7Tỉ Lệ Chặn Đòn&8: &a+%mmoitems_stat_block_rating%%'
+        - '&3 &f| &7Né Tránh&8: &a+%mmoitems_stat_dodge_rating%%'
+        - '&3 &f| &7Đỡ Đòn&8: &a+%mmoitems_stat_parry_rating%%'
+        - '&3 &f| &7Kháng Đánh Bay&8: &a+%mmoitems_stat_knockback_resistance%%'
+        - '&3 &f| &7Giảm ST &8[&bKhi Bị Rơi&8]&8: &a+%mmoitems_stat_fall_damage_reduction%%'
+        - '&3 &f| &7Giảm ST &8[&cLửa&8]&8: &a+%mmoitems_stat_fire_damage_reduction%%'
+        - '&3'
+        - '&3 &f| &7May Mắn&8: &a+%mmoitems_stat_custom_myluck%'
+        - '&3 &f| &7Tốc Độ&8: &a+%mmoitems_stat_movement_speed%'
+
+# Misc
+FILL:
+    type: fill
+    material: DIAMOND_HOE
+    durability: 15
+    name: '&a'
+    slot: -1
+    lore: []

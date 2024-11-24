@@ -1,0 +1,15 @@
+# RVLInventory - Dev STABLE Version
+
+# Menu names
+inventory-name:
+    self: 'TÚI TRANG SỨC'
+    other: 'TÚI TRANG SỨC CỦA &9{name}'
+
+# Error command output
+player-command: '&cThis command is only for players.'
+specify-player: '&cPlease specify a player.'
+wrong-player: '&cCould not find the player called {arg}.'
+not-enough-perms: '&cAnh ban that la skibidi.'
+
+# Command Output
+reload: '&aRVLInventory {version} successfully reloaded.'
